@@ -13,7 +13,7 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage = PageFactory.initElements(driver, EbayHomepage.class);
     }
 
-    @Test (priority = 0)
+    @Test (priority = 0,enabled = false)
     public static void testHomepage(){
         getInItElements();
         ebayHomepage.getCurrentPageTitle();
@@ -26,63 +26,63 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage.validateSignInPage();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2,enabled = false)
     public static void testDailyDeals(){
         getInItElements();
         ebayHomepage.getDailyDeals();
         ebayHomepage.validateDailyDeals();
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3,enabled = false)
     public static void testShoppingCart(){
         getInItElements();
         ebayHomepage.getShoppingCart();
         ebayHomepage.validateShoppingCart();
 }
 
-    @Test(priority = 4)
+    @Test(priority = 4,enabled = false)
     public static void testSellPage(){
         getInItElements();
         ebayHomepage.getSellPage();
         ebayHomepage.validateSellPage();
 }
 
-    @Test(priority = 5)
+    @Test(priority = 5,enabled = false)
     public static void testHelpAndContact(){
         getInItElements();
         ebayHomepage.getHelpAndContact();
         ebayHomepage.validateHelpAndContact();
 }
 
-    @Test(priority = 6)
+    @Test(priority = 6,enabled = false)
     public static void testMotorsPage(){
         getInItElements();
         ebayHomepage.getMotorsPage();
         ebayHomepage.validateMotorsPage();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 7,enabled = false)
     public static void testFashionPage(){
         getInItElements();
         ebayHomepage.getFashionPage();
         ebayHomepage.validateFashionPage();
     }
 
-    @Test(priority = 8)
+    @Test(priority = 8,enabled = false)
     public static void testElectronicsPage(){
         getInItElements();
         ebayHomepage.getElectronicsPage();
         ebayHomepage.validateElectronicsPage();
     }
 
-    @Test(priority = 9)
+    @Test(priority = 9,enabled = false)
     public static void testCollectiblesAndArt(){
         getInItElements();
         ebayHomepage.getCollectiblesAndArtPage();
         ebayHomepage.validateCollectiblesAndArtPage();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 10,enabled = false)
     public static void testSearchCategoryDropdownList(){
         getInItElements();
         ebayHomepage.getSearchCategoryDropDownNum();
@@ -91,7 +91,7 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage.validateSearchCategoryText();
     }
 
-    @Test(priority = 11)
+    @Test(priority = 11,enabled = false)
     public static void testShopByCategory(){
         getInItElements();
         ebayHomepage.validateShopByCategoryListNum();
@@ -99,19 +99,19 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage.validateShopByCategoryListText();
     }
 
-    @Test(priority = 12)
+    @Test(priority = 12,enabled = false)
     public static void testCarouselSlideRight(){
         getInItElements();
         ebayHomepage.validateClickCarouselRight();
 
     }
-    @Test(priority = 13)
+    @Test(priority = 13,enabled = false)
     public static void testCarouselSlideLeft(){
         getInItElements();
         ebayHomepage.validateCarouselLeft();
     }
 
-    @Test(priority = 14)
+    @Test(priority = 14,enabled = false)
     public static void testEbaySitesList(){
         getInItElements();
         ebayHomepage.validateEbaySitesListNum();
@@ -119,7 +119,7 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage.validateEbaySitesList();
     }
 
-    @Test(priority = 15)
+    @Test(priority = 15,enabled = false)
     public static void testAboutEbayList(){
         getInItElements();
         ebayHomepage.validateAboutEbayListNum();
@@ -127,27 +127,27 @@ public class EbayHomepageTest extends WebAPI {
         ebayHomepage.validateAboutEbayList();
     }
 
-    @Test(priority = 16)
+    @Test(priority = 16,enabled = false)
     public static void testSearchBox(){
         getInItElements();
         ebayHomepage.getSearchItem();
 
     }
 
-    @Test(priority = 17)
+    @Test(priority = 17,enabled = false)
     public static void testAddItemToCart(){
         getInItElements();
         ebayHomepage.addItemToCart();
     }
 
-    @Test(priority = 18)
+    @Test(priority = 18,enabled = false)
     public static void testDeleteItemMiniCart(){
         getInItElements();
         ebayHomepage.deleteItemMiniCart();
 
 
     }
-    @Test(priority = 19)
+    @Test(priority = 19,enabled = false)
     public static void testFAQButton(){
         getInItElements();
         ebayHomepage.getHelpButton();
